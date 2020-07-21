@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment-2</title>
+</head>
+<body>
+
+
+
+<script type="text/javascript">
+/*------------------------------------------Q1. Convert Minutes into Seconds--------------------------------------------------------*/
+/*Write a function that takes an integer minutes and converts it to seconds.*/
+/*function convert(n){
+	let seconds=n*60;
+	return seconds;
+};
+
+console.log(convert(3));*/
+
+/*--------------------x----------------------Q1. Convert Minutes into Seconds--------------------------x------------------------------*/
+
+/*----------------------------------------------Q2. Divides Evenly-------------------------------------------------------------------*/
+
+/*function dividesEvenly(p1,p2){
+	if (p1<p2){
+		return ("Invalide inputs");
+	};
+	let res=p1/p2;
+	if (res%2==0){
+		return true;
+	}else {
+		return false;
+	}
+
+} 
+let store=dividesEvenly(64,8);
+console.log(store);*/
+
+/*---------------------x-------------------------Q2. Divides Evenly-----------------------------------x--------------------------------*/
+
+/*----------------------------------------------Q1. Count Instances of a Character in a String-----------------------------------------*/
+/*function charCount(char,str){
+  let charMap = {};
+  
+  for(let ch of str) {
+    charMap[ch] = charMap[ch] + 1 || 1
+  }
+  
+  return charMap[char];
+}
+
+let result = charCount("a", "edabit");
+
+console.log(result);*/
+
+/*------------x----------------------------------Q1. Count Instances of a Character in a String-------------x----------------------------*/
+
+/*-------------x--------------------------------Q2.Add up the Numbers from a Single Number-------------------x---------------------------*/
+
+/*function addUp(n){
+		let sum=0;
+		for (let i=1;i<=n;i++){ 
+				sum=sum+i;
+				
+		}
+		return sum;
+	}
+	console.log(addUp(4));*/
+
+/*------------------x-------------------------Q2.Add up the Numbers from a Single Number----------------------x--------------------------*/
+
+
+/*--------------------------------------------Q3. Replace Vowel with Another Character--------------------------------------------------*/
+
+
+
+
+
+/*--------------x------------------------------Q3. Replace Vowel with Another Character----------------------x----------------------------*/
+ 
+/*-------------------------------------------Q1. Reverse Words Starting with a Particular Letter----------------------------------------*/
+/*function specialReverse(sent, ch) {
+  let arr = sent.split(' ');
+  
+  let mod_arr = arr.map(word => {
+    if (word.toLowerCase().charAt(0) == ch) {
+        return word.split('').reverse().join('');
+    } else {
+      return word;
+    }
+  }).join(' ');
+  return mod_arr;
+}
+let result = specialReverse("word searches are super fun", "s");
+console.log(result);*/
+
+
+/*---------------x--------------------------Q1. Reverse Words Starting with a Particular Letter----------------x-----------------------*/
+
+/*------------------------------------------Q2. Hitting the Jackpot--------------------------------------------------------------------*/
+/*function charCount(arr) {
+  let charMap = {};
+  let max = 0;
+  let length = arr.length;
+  
+  for(let ch of arr) {
+    charMap[ch] = charMap[ch] + 1 || 1
+  }
+  
+  
+  for(let ch in charMap) {
+    if (charMap[ch] > max) {
+      max = charMap[ch];
+    }
+  }
+  
+  if (length == max) {
+    return true;
+  } else {
+    return false;
+  }
+};
+
+let result = charCount(["SS", "SS", "SS", "SS"]);
+console.log(result);*/
+
+/*---------------------x---------------------Q2. Hitting the Jackpot---------------------x-----------------------------------------------*/
+
+/*-----------------------------------------Q3. Remove Duplicates from an Array----------------------------------------------------------*/
+
+/*function removeDups(str){
+let uniqueChars = [];
+str.forEach(function(c) {
+    if (!uniqueChars.includes(c)) {
+        uniqueChars.push(c);
+    }
+});
+return uniqueChars;
+}
+
+let store=removeDups([1, 0, 1, 0]);
+console.log(store);*/
+
+
+
+/*-----------------------------------------Q3. Remove Duplicates from an Array----------------------------------------------------------*/
+
+
+/*------------------------------------------Q1. Get Real Type---------------------------------------------------------------------------*/
+/*function realType(para) {
+  let type = Object.prototype.toString.call(para)
+  let actual_type = type.split(' ').pop().replace(']', '');
+  return actual_type;
+} 
+let result = realType(1);
+console.log(result); */
+
+/*-----------------------------------x-------Q1. Get Real Type-----------------------------------x-------------------------------------*/
+
+/*function nmInStr(arr) {
+  let final_arr = [];
+  
+  arr.map(item => {
+    if (/\d/.test(item)) {
+      final_arr.push(item)
+    }
+  });
+  
+  console.log(final_arr);
+  
+}
+nmInStr(["abc", "abc10", 'def20'])*/
+
+</script>
+
+</body>
+</html>
+
+ 
+
